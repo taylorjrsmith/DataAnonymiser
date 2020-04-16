@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnonymiser", "DataAnonymiser\DataAnonymiser.csproj", "{F3A2D858-5076-4A46-A2EF-50F0D3A1C0E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3A2D858-5076-4A46-A2EF-50F0D3A1C0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A2D858-5076-4A46-A2EF-50F0D3A1C0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A2D858-5076-4A46-A2EF-50F0D3A1C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A2D858-5076-4A46-A2EF-50F0D3A1C0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6667B29F-AE03-403F-9323-4F33D798C538}
+	EndGlobalSection
+EndGlobal
