@@ -125,17 +125,6 @@ namespace DataAnonymiser
 
         }
 
-        public const string Query = @"select distinct top 1000  m.moverid, m.lastname, m.contactnumber, m.email, m.Domain, m.ServiceId, nearestfrom, nearestto, ipaddress, m.past_email_addresses, 
-        m.RegistrationDate, m.ConfirmationDate, IsDisqualifiedMover,
-case when exists (select email, count(*) from rm_mover pm where pm.email = m.email and pm.registrationdate < m.registrationdate 
-and datediff(DAY,pm.registrationdate, m.registrationdate) <= 1
-group by email having count(*)>= 3)
-then 1 else 0
-end as 'registeredthreeintwentyfourhours'
-from rm_mover m 
-join rm_mover_visitdetails mvd on mvd.moverId = m.moverid
-join rm_moverdetailhome mdh on mdh.MoverId = m.moverid
-order by ConfirmationDate desc
-";
+        public const string Query = @"Secret Query";
     }
 }
